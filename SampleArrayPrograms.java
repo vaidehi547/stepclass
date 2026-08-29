@@ -2,14 +2,14 @@ class SampleArrayPrograms {
 
     public static void main(String[] args) {
 
-        // 1. Array initialization
+   
         int a[] = {1, 2, 3, 4, 5};
 
         for (int c : a) {
             System.out.println(c);
         }
 
-        // 2. Creating an array using new
+       
         int[] b = new int[5];
 
         b[0] = 1;
