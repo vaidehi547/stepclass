@@ -5,8 +5,8 @@ class SampleArrayPrograms {
         // 1. Array initialization
         int a[] = {1, 2, 3, 4, 5};
 
-        for (int i = 0; i < a.length-1; i++) {
-            System.out.println(a[i]);
+        for (int c : a) {
+            System.out.println(c);
         }
 
         // 2. Creating an array using new
@@ -20,8 +20,8 @@ class SampleArrayPrograms {
 
         System.out.println("Array b:");
 
-        for (int i = 0; i < b.length; i++) {
-            System.out.println(b[i]);
+        for (int d : b) {
+            System.out.println(d);
         }
     }
 }
